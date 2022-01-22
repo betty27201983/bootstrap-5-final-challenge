@@ -1,5 +1,5 @@
 .home-bg {
-    background-image: url(/images/home_mobile.png);
+    background-image: url(../images/home_mobile.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -10,7 +10,7 @@
 //桌面版
 @include media-breakpoint-up(md) {
     .home-bg {
-        background-image: url(/images/home.png);
+        background-image: url(../images/home.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;

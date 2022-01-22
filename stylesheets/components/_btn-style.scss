@@ -12,7 +12,7 @@
 }
 
 .btn-img-change {
-    background-image: url(/images/btn.png);
+    background-image: url(../images/btn.png);
     display: block;
     width: 140px;
     height: 153px;
@@ -20,6 +20,6 @@
     bottom: 0;
     right: 50px;
     &:hover {
-        background-image: url(/images/btn2.png);
+        background-image: url(../images/btn2.png);
     }
 }

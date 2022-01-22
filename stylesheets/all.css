@@ -11952,7 +11952,7 @@ fieldset:disabled .btn {
 }
 
 .title {
-  background-image: url(/images/logo.png);
+  background-image: url(../images/logo.png);
   height: 40px;
   width: 120px;
   text-indent: 101%;
@@ -11961,7 +11961,7 @@ fieldset:disabled .btn {
 }
 
 .home-bg {
-  background-image: url(/images/home_mobile.png);
+  background-image: url(../images/home_mobile.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -11971,7 +11971,7 @@ fieldset:disabled .btn {
 
 @media (min-width: 768px) {
   .home-bg {
-    background-image: url(/images/home.png);
+    background-image: url(../images/home.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -12058,7 +12058,7 @@ fieldset:disabled .btn {
 }
 
 .btn-img-change {
-  background-image: url(/images/btn.png);
+  background-image: url(../images/btn.png);
   display: block;
   width: 140px;
   height: 153px;
@@ -12068,7 +12068,7 @@ fieldset:disabled .btn {
 }
 
 .btn-img-change:hover {
-  background-image: url(/images/btn2.png);
+  background-image: url(../images/btn2.png);
 }
 
 .header-cover {
