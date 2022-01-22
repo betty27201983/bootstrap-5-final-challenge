@@ -1,0 +1,15 @@
+.f-hover {
+    .deco-line {
+        display: none;
+    }
+    &:hover {
+        .deco-line {
+            display: block;
+        }
+    }
+    &:focus {
+        .deco-line {
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.home-bg {
+    background-image: url(/images/home_mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 635px;
+    margin-top: 74px;
+}
+
+//桌面版
+@include media-breakpoint-up(md) {
+    .home-bg {
+        background-image: url(/images/home.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 810px;
+        margin-top: 74px;
+    }
+    .home-text {
+        font-family: 'Kalam', cursive;
+        color: #848975;
+        -webkit-text-stroke: 2px white;
+        font-size: 50px;
+    }
+}
